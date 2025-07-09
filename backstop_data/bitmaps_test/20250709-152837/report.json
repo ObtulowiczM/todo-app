@@ -1,0 +1,114 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_BackstopJS_Homepage_0_document_0_iPhone_SE.png",
+        "test": "..\\bitmaps_test\\20250709-152837\\backstop_default_BackstopJS_Homepage_0_document_0_iPhone_SE.png",
+        "selector": "document",
+        "fileName": "backstop_default_BackstopJS_Homepage_0_document_0_iPhone_SE.png",
+        "label": "BackstopJS Homepage",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:4200",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "iPhone SE",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 2.159320339830085,
+          "misMatchPercentage": "2.16",
+          "analysisTime": 9
+        },
+        "diffImage": "..\\bitmaps_test\\20250709-152837\\failed_diff_backstop_default_BackstopJS_Homepage_0_document_0_iPhone_SE.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_BackstopJS_Homepage_0_document_1_Samsung_Galaxy_S20_Ultra.png",
+        "test": "..\\bitmaps_test\\20250709-152837\\backstop_default_BackstopJS_Homepage_0_document_1_Samsung_Galaxy_S20_Ultra.png",
+        "selector": "document",
+        "fileName": "backstop_default_BackstopJS_Homepage_0_document_1_Samsung_Galaxy_S20_Ultra.png",
+        "label": "BackstopJS Homepage",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:4200",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "Samsung Galaxy S20 Ultra",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.551275929757547,
+          "misMatchPercentage": "1.55",
+          "analysisTime": 23
+        },
+        "diffImage": "..\\bitmaps_test\\20250709-152837\\failed_diff_backstop_default_BackstopJS_Homepage_0_document_1_Samsung_Galaxy_S20_Ultra.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_BackstopJS_Homepage_0_document_2_iPad_Air.png",
+        "test": "..\\bitmaps_test\\20250709-152837\\backstop_default_BackstopJS_Homepage_0_document_2_iPad_Air.png",
+        "selector": "document",
+        "fileName": "backstop_default_BackstopJS_Homepage_0_document_2_iPad_Air.png",
+        "label": "BackstopJS Homepage",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:4200",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "iPad Air",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.6680446465481604,
+          "misMatchPercentage": "0.67",
+          "analysisTime": 23
+        },
+        "diffImage": "..\\bitmaps_test\\20250709-152837\\failed_diff_backstop_default_BackstopJS_Homepage_0_document_2_iPad_Air.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_BackstopJS_Homepage_0_document_3_Desktop.png",
+        "test": "..\\bitmaps_test\\20250709-152837\\backstop_default_BackstopJS_Homepage_0_document_3_Desktop.png",
+        "selector": "document",
+        "fileName": "backstop_default_BackstopJS_Homepage_0_document_3_Desktop.png",
+        "label": "BackstopJS Homepage",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:4200",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "Desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.5534722222222223,
+          "misMatchPercentage": "0.55",
+          "analysisTime": 28
+        },
+        "diffImage": "..\\bitmaps_test\\20250709-152837\\failed_diff_backstop_default_BackstopJS_Homepage_0_document_3_Desktop.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "backstop_default"
+}

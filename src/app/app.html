@@ -1,0 +1,26 @@
+<main class="todo-container">
+  <div class="add-task">
+    <input
+      [value]="newTask"
+      (input)="onInput($event)"
+      (keydown.enter)="addNewTask()"
+      placeholder="Co dziś mamy do roboty?"
+    />
+    <button (click)="addNewTask()">Dodaj</button>
+  </div>
+  <ul class="task-list">
+    @for (item of todoList; track item.id; let i = $index) {
+    <li [ngClass]="{ 'completed-task': item.completed }">
+      <input
+        [(checked)]="item.completed"
+        type="checkbox"
+        (change)="toggleCompleted(i)"
+      />
+      <span [class.completed-task]="item.completed">{{ item.task }}</span>
+      <button (click)="delete(item.id)">Usuń</button>
+    </li>
+    }
+  </ul>
+</main>
+
+<router-outlet />

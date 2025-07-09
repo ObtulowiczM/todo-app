@@ -1,0 +1,102 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Todo_App_0_todo-container_0_iPhone_SE.png",
+        "test": "..\\bitmaps_test\\20250709-155408\\backstop_default_Todo_App_0_todo-container_0_iPhone_SE.png",
+        "selector": ".todo-container",
+        "fileName": "backstop_default_Todo_App_0_todo-container_0_iPhone_SE.png",
+        "label": "Todo App",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:4200",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "iPhone SE",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Todo_App_0_todo-container_1_Samsung_Galaxy_S20_Ultra.png",
+        "test": "..\\bitmaps_test\\20250709-155408\\backstop_default_Todo_App_0_todo-container_1_Samsung_Galaxy_S20_Ultra.png",
+        "selector": ".todo-container",
+        "fileName": "backstop_default_Todo_App_0_todo-container_1_Samsung_Galaxy_S20_Ultra.png",
+        "label": "Todo App",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:4200",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "Samsung Galaxy S20 Ultra",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Todo_App_0_todo-container_2_iPad_Air.png",
+        "test": "..\\bitmaps_test\\20250709-155408\\backstop_default_Todo_App_0_todo-container_2_iPad_Air.png",
+        "selector": ".todo-container",
+        "fileName": "backstop_default_Todo_App_0_todo-container_2_iPad_Air.png",
+        "label": "Todo App",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:4200",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "iPad Air",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Todo_App_0_todo-container_3_Desktop.png",
+        "test": "..\\bitmaps_test\\20250709-155408\\backstop_default_Todo_App_0_todo-container_3_Desktop.png",
+        "selector": ".todo-container",
+        "fileName": "backstop_default_Todo_App_0_todo-container_3_Desktop.png",
+        "label": "Todo App",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:4200",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "Desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    }
+  ],
+  "id": "backstop_default"
+}
