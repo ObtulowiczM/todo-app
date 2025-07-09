@@ -4,7 +4,7 @@ $success: green;
 $info: rgb(0, 195, 255);
 $warning: rgb(255, 217, 0);
 $red: rgba(255, 29, 29, 0.733);
-$font-button-color: white;
+$font-button-color: rgb(0, 0, 0);
 $shadow: rgb(0, 0, 0, 0.6);
 $border: #ccc;
 $background-color-list: aliceblue;
@@ -20,7 +20,7 @@ $border-radius-4: 4px;
 }
 
 .add-task {
-  display: flex;
+  display: grid;
   justify-content: center;
   margin-bottom: 20px;
   gap: 10px;
@@ -35,7 +35,7 @@ $border-radius-4: 4px;
   }
 
   button {
-    background-color: $success;
+    background-color: $info;
     color: $font-button-color;
     border: none;
     border-radius: $border-radius-4;
